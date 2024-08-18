@@ -1,0 +1,87 @@
+body {
+	background: #000 url(page-bg.jpg);
+	margin: 0px;
+	font: 400 14px/22px 'Century Gothic', Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+h1 {
+	font: 400 58px/60px "Century Gothic", Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+h2 {
+	font: 400 18px/22px "Century Gothic", Arial, sans-serif;
+	color: #000;
+}
+
+h3 {
+	font: 400 14px/16px "Century Gothic", Arial, sans-serif;
+	color: #000;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #ff5400;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a img {
+	border: 0px;
+}
+
+img {
+	text-align: center;
+	margin: 20px auto;
+}
+
+#container {
+	width: 950px;
+	margin: 0px auto;
+	background: url(body-bg.png);
+	overflow: auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+/****************************************************/
+/* HEADER */
+/****************************************************/
+
+#header {
+	width: 864px;
+	height: 115px;
+	background: #000 url(header-gradient.jpg) no-repeat center bottom;
+	padding: 0px 43px;
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	margin: 0 0 0 -475px;
+}
+
+/****************************************************/
+/* ABOUT SECTION */
+/****************************************************/
+
+#about {
+	margin: 0px 43px;
+	padding-top: 115px;
+}
+
+#about h1 {
+	float: left;
+}
+
+#about .content {
+	overflow: auto;
+}
